@@ -1,0 +1,31 @@
+h1::before {
+    content: "🦈";
+}
+
+p::after {
+    content: "💙";
+}
+
+.bio::first-letter {
+    font-size: 50px;
+    color: darkblue;
+}
+
+p::first-line {
+    font-weight: bold;
+    font-family: Times New Roman;
+}
+
+::selection{
+    background-color: #4F86F7;
+}
+
+::placeholder {
+    font-style: italic;
+    color: blue;
+}
+
+li::marker {
+    color: lightblue;
+    font-size: 50px;
+}
